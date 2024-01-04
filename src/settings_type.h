@@ -501,6 +501,7 @@ struct OrderSettings {
 	bool   selectgoods;                      ///< only send the goods to station if a train has been there
 	bool   no_servicing_if_no_breakdowns;    ///< don't send vehicles to depot when breakdowns are disabled
 	bool   serviceathelipad;                 ///< service helicopters at helipads automatically (no need to send to depot)
+	bool   loading_speed_penalty;            ///< Loading speed penalty for trains longer than the station
 };
 
 /** Settings related to vehicles. */
